@@ -1,0 +1,290 @@
+.slideWraper {
+    margin: 0px;
+    padding: 0px 0 150px 0;
+    background: url("../../assets/images/slide-banner.jpg") no-repeat top center;
+    background-attachment: fixed;
+    .slideArea {
+        margin: 0px auto;
+        padding: 0px 0 0 0;
+        width: 1024px;
+        .slideInfo {
+            margin: 0px 0 0 0;
+            padding: 140px 0 0 0;
+            width: 400px;
+            h2{
+                margin: 0px;
+                padding: 0 0 30px 0;
+                font-size: 38px;
+                font-weight: 300;
+                line-height: 31px;
+                color: #000;
+                span {
+                    font-weight: 700;
+                    color: #0051a0;
+                }
+            }
+            p{
+                margin: 0px;
+                padding: 0 0 30px 2px;
+                color: #00b9ff;
+                font-size: 20px;
+                line-height: 33px;
+            }
+            .btn{
+                margin: 0px;
+                padding: 0px;
+                a{
+                    color: #fff;
+                    background: #0051a0;
+                    padding: 20px 30px;
+                    border-radius: 30px;
+                    transition: all 0.2s ease-in-out;
+                    color: #fff;
+                    display:inline-block;
+                    font-size: 25px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    &:hover{
+                        color: #fff;
+                        border-radius: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.homeIntro {
+    margin: 0px;
+    padding: 120px 0 20px 0;
+    border-top: 1px solid #d1f6ff;
+    border-bottom: 1px solid #d1f6ff;
+    overflow: hidden;
+}
+
+.homeIntroArea {
+    margin: 0px auto;
+    padding: 0px;
+    width: 1024px;
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        li{
+            margin: 0px 2% 60px 0;
+            padding: 0px;
+            width: 32%;
+            float: left;
+            text-align: center;
+            &:nth-child(3n){
+                margin-right: 0px;
+            }
+            .introIcon {
+                margin: 0px;
+                padding: 0px;
+                min-height: 100px;
+            }
+            h2{
+                margin: 0px;
+                padding: 0px 0 20px 0;
+                font-size: 25px;
+                color: #0051a0;
+            }
+            p{
+                margin: 0px;
+                padding: 0px;
+                font-size: 13px;
+                line-height: 20px;
+                color: #6776b6;
+                min-height: 100px;
+            }
+        }
+    }
+}
+
+.bottomAppoint{
+    margin: 0px;
+    padding: 100px 0px;
+    background: #00b9ff;
+    .bottomAppointArea {
+        margin: 0px auto;
+        padding: 0px;
+        width: 1024px;
+        text-align: center;
+        p{
+            margin: 0px;
+            padding: 0px 0 35px 0;
+            font-size: 45px;
+            line-height: 69px;
+            color: #fff;
+            font-weight: 300;
+            strong {
+                font-weight: 700;
+            }
+        }
+        .btn{
+            margin: 0px 0 10px 0;
+            padding: 0px;
+            a{
+                color: #fff;
+                background: #0051a0;
+                padding: 20px 30px;
+                border-radius: 30px;
+                transition: all 0.2s ease-in-out;
+                color: #fff;
+                display:inline-block;
+                font-size: 18px;
+                text-transform: uppercase;
+                font-weight: 500;
+                &:hover{
+                    color: #fff;
+                    border-radius: 0px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.teamBg {
+    margin: 0px;
+    padding: 100px 0 40px 0;
+    width: 100%;
+    background: url("../../assets/images/team-bg.jpg") no-repeat bottom right;
+    background-attachment: fixed;
+    background-size: 80%;
+}
+
+.teamIntro {
+    margin:0px auto;
+    padding: 0px;
+    width: 1024px;
+    .teamLeft{
+        margin: 0px;
+        padding: 0px;
+        width: 50%;
+        h2 {
+            margin: 0px;
+            padding: 0px 0 30px 0;
+            font-size: 40px;
+            font-weight: 600;
+            letter-spacing: -.03em;
+            color: #0051a0
+        }
+        h3 {
+            margin: 0px;
+            padding: 0px 0 20px 0;
+            font-size: 30px;
+            font-weight: 300;
+            letter-spacing: -.03em;
+            color: #00b9ff
+        }
+        p{
+            margin: 0px;
+            padding: 0px 0 30px 0;
+            color: #6776b6;
+            text-align: left;
+            font-weight: 300;
+            font-size: 15px;
+            letter-spacing: 0px;
+            line-height: 25px;
+        }
+    }
+}
+
+
+
+
+.serviceBg {
+    margin: 0px 0 90px 0;
+    padding: 100px 0 100px 0;
+    width: 100%;
+    background: url("../../assets/images/services-bg.jpg") no-repeat center;
+   
+    
+}
+
+.serviceInfo {
+    margin: 0px auto;
+    padding: 0px;
+    width: 1024px;
+    overflow: hidden;
+    h2{
+        margin: 0px;
+        padding:0px 0 50px 0;
+        font-size: 55px;
+        text-align: center;
+        color: #fff;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-align: center;
+        li{
+            margin: 0px 1.5%;
+            padding: 0px;
+            float: left;
+            width: 30%;
+            .iconInfo {
+                margin: 0px 0 20px 0;
+                padding: 0px;
+            }
+            h4{
+                margin: 0px;
+                padding: 0px 0 20px 0;
+                font-size: 20px;
+                color: #fff;
+                font-weight: 600;
+                text-transform:capitalize;
+                
+            }
+            p{
+                margin: 0px;
+                padding: 0px;
+                font-size: 15px;
+                color: #aeebff;
+                line-height: 25px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.footerLogo {
+    margin: 0px;
+    padding: 20px 0 50px 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footerLogoArea {
+    margin: 0px auto;
+    padding: 0px;
+    width: 1024px;
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        li{
+            margin: 0px;
+            padding: 0px;
+            float: left;
+            width: 25%;
+            .clientLogo {
+                margin: 0px;
+                padding: 0px;
+                img{
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                }
+            }
+        }
+    }
+}

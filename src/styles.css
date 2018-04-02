@@ -1,0 +1,171 @@
+
+/* Genral css */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+img{
+    margin: 0px;
+    padding: 0px;
+}
+img a{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+a{
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    text-decoration: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: disc;
+}
+li{
+    margin: 0px;
+    padding: 0px;
+}
+ol{
+    margin: 0px;
+    padding: 0px;
+    list-style: decimal;
+}
+ol li{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    outline: none;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+}
+input,salect {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Global css */
+.clear{
+    clear: both;
+}
+.fLeft{
+    float: left;
+}
+.fRight{
+    float: right;
+}
+
+.titleArea {
+    margin: 0px;
+    padding-top: 85px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #d5f3ff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.titleArea h2 {
+    font-style: normal;
+    font-weight: 300;
+    line-height: 55px;
+    text-align: inherit;
+    color: #0051a0;
+    letter-spacing: 1px;
+    font-size: 58px;
+}
+
+.breadCrumbs {
+    margin: 0px 0 20px 0;
+    padding: 0px;
+    text-align: center;
+}
+
+.breadCrumbs ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.breadCrumbs ul li{
+    margin: 0px;
+    padding: 0px 5px;
+    font-size: 14px;
+    color: #00b9ff;
+    display: inline-block;
+}
+
+.breadCrumbs ul li a {
+    color: #00b9ff;
+}
+
+.breadCrumbs ul li a:hover{
+    color: #000;
+}
+
+
+

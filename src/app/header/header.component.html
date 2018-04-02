@@ -1,0 +1,76 @@
+<header class="headerArea">
+  <section class="topArea">
+    <!-- top info -->
+    <div class="topInfo">
+      <div class="logo">
+        <a routerLink="" routerLinkActive="active-link">
+          <img src="../assets/images/logo.png">
+        </a>
+      </div>
+      <div class="topRight">
+        <ul>
+          <li>
+            <i class="contact-block__icon fa fa-paper-plane"></i> 6087 Richmond hwy, Alexandria, VA</li>
+          <li>
+            <i class="contact-block__icon fa fa-phone"></i>
+            <a href="tel:15553295632">1.555.329.5632</a>
+          </li>
+
+
+
+          <li class="appointBtn">
+            <a routerLink="/appointment" routerLinkActive="active-link">Make an appointment</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- end top info -->
+  </section>
+
+
+  <!--navigation -->
+  <nav class="navArea">
+    <div class="navLink">
+      <ul>
+        <li>
+          <a routerLink="" [routerLinkActive]="['active-link']" [routerLinkActiveOptions]="{exact: true}">Home</a>
+        </li>
+        <li>
+          <a routerLink="/about" routerLinkActive="active-link">About Us</a>
+        </li>
+        <li>
+          <a routerLink="/doctors" routerLinkActive="active-link">Doctors</a>
+        </li>
+        <li>
+          <a routerLink="/department" routerLinkActive="active-link">Department</a>
+        </li>
+
+        <li>
+          <a routerLink="/contact" routerLinkActive="active-link">Contact Us</a>
+        </li>
+
+      </ul>
+      <ul class="topSocal">
+
+        <li>
+          <a href="#">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-google-plus" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </nav>
+  <!--end navigation -->
+
+</header>

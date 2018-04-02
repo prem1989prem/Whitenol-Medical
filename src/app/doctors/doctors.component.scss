@@ -1,0 +1,171 @@
+.doctorsPage{
+    margin:0px auto;
+    padding: 0px;
+    width: 1024px;
+}
+
+
+
+.teamBg {
+    margin: 0px;
+    padding: 0px 0 100px 0;
+    width: 100%;
+    background: url("../../assets/images/team-bg.jpg") no-repeat bottom right;
+    background-attachment: fixed;
+    background-size: 85%;
+}
+
+.teamIntro {
+    margin:0px auto;
+    padding: 0px;
+    width: 1024px;
+    .teamLeft{
+        margin: 0px;
+        padding: 0px;
+        width: 50%;
+        h2 {
+            margin: 0px;
+            padding: 0px 0 30px 0;
+            font-size: 40px;
+            font-weight: 600;
+            letter-spacing: -.03em;
+            color: #0051a0
+        }
+        h3 {
+            margin: 0px;
+            padding: 0px 0 20px 0;
+            font-size: 30px;
+            font-weight: 300;
+            letter-spacing: -.03em;
+            color: #00b9ff
+        }
+        p{
+            margin: 0px;
+            padding: 0px 0 30px 0;
+            color: #6776b6;
+            text-align: left;
+            font-weight: 300;
+            font-size: 15px;
+            letter-spacing: 0px;
+            line-height: 25px;
+        }
+    }
+}
+
+.docBg{
+    margin: 0px 0 90px 0;
+    padding: 50px 0 30px 0;
+    width: 100%;
+    background: url("../../assets/images/doctors-bg.jpg") no-repeat bottom right;
+    background-attachment: fixed;  
+}
+
+.docList{
+    margin: 0px auto;
+    padding: 0px;
+    width: 1024px;
+    overflow: hidden;
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        li{
+            margin: 10px 3.5% 5% 0;
+            padding: 0px;
+            float: left;
+            width: 31%;
+            background: #fff;
+            box-shadow: 5px 5px 8px #076dac;
+            border:1px dashed #076dac;
+            position: relative;
+            transition: all 0.2s ease-in-out;
+            .teamListPhoto{
+                margin: 0px;
+                padding: 0px;
+                img{
+                    margin: 0px;
+                    padding: 0px;
+                    width: 100%;
+                }
+            }
+            .teamDetail {
+                margin: 0px;
+                padding: 20px 20px;
+                background: #f9f9f9;
+                transition: all 0.2s ease-in-out;
+                h2{
+                    margin: 0px;
+                    padding:0 0 20px 0;
+                    color: #0051a0;
+                    font-style: normal;
+                    font-size: 30px;
+                    font-family: Montserrat, sans-serif;
+                    letter-spacing: 0px;
+                    text-align: inherit;
+                    font-weight: 700;
+                }
+                h3{
+                    margin: 0px;
+                    padding: 0 0 25px 0;
+                    font-style: normal;
+                    font-family: Montserrat, sans-serif;
+                    letter-spacing: 0px;
+                    text-align: inherit;
+                    font-size: 17px;
+                    color: #00b9ff;
+                    font-weight: 600;
+                }
+                p{
+                    margin: 0px;
+                    padding: 0px 0 15px 0;
+                    font-size: 15px;
+                    line-height: 30px;
+                    letter-spacing: 0.3px;
+                }
+                .socalIcon {
+                    margin: 0px;
+                    padding: 0px;
+                    position: absolute;
+                    bottom: -18px;
+                    box-shadow: 2px 2px 3px #065d95;
+                    ul{
+                        margin: 0px;
+                        padding: 0px;
+                        list-style: none;
+                        overflow: hidden;
+                        li{
+                            margin: 0px;
+                            padding: 0px;
+                            float: left;
+                            border: 0px;
+                            box-shadow: none;
+                            width: auto;
+                            font-size: 20px;
+                            a{
+                                margin: 0px;
+                                padding: 10px;
+                                background: #00b9ff;
+                                color: #fff;
+                                display: block;
+                                transition: all 0.2s ease-in-out;
+                                &:hover{
+                                    color: #0051a0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &:nth-child(3n){
+                margin-right: 0px;
+            }
+            &:hover{
+                border: 1px solid #0051a0;
+                box-shadow: 5px 5px 5px #0051a0;
+                .teamDetail {
+                    background: #def3ff;
+                }
+            }
+        }
+    }
+}

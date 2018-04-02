@@ -1,0 +1,179 @@
+.contactPage{
+    margin:0px auto;
+    padding: 0px;
+    width: 1024px;
+    overflow: hidden;
+}
+
+.titleArea h2{ font-size: 36px;}
+
+
+.conForms{
+    margin: 0px;
+    padding: 0px;
+    width: 60%;
+    float: left;
+    font-family: Montserrat, sans-serif;
+    h3{
+        margin: 0px 0 25px 0;
+        padding: 0px;
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        li{
+            margin: 0px 0 30px 0;
+            padding: 0px;
+            overflow: hidden;
+            label{
+                margin: 0px;
+                padding: 0px 0 7px 0;
+                display: block;
+                font-size: 11px;
+                text-transform: capitalize;
+            }
+            input[type=text]{
+                margin: 0px;
+                padding: 10px;
+                border-radius: 5px;
+                height: 45px;
+                line-height: 45px;
+                width: 100%;
+                border:1px solid #cdcdcd;
+                font-size: 15px;
+                color: #000;
+                font-family: Montserrat, sans-serif;
+                box-shadow: inset 2px 3px 5px #f2f2f2;
+                transition: all 0.2s ease-in-out;
+                &:focus{
+                    background: #f6f6f6;
+                    box-shadow: inset 2px 3px 5px #f6f6f6;
+                    width: 95%;
+                }
+            }
+            input[type=number]{
+                margin: 0px;
+                padding: 10px;
+                border-radius: 5px;
+                height: 45px;
+                line-height: 45px;
+                width: 100%;
+                border:1px solid #cdcdcd;
+                font-size: 15px;
+                color: #000;
+                font-family: Montserrat, sans-serif;
+                box-shadow: inset 2px 3px 5px #f2f2f2;
+                transition: all 0.2s ease-in-out;
+                &:focus{
+                    background: #f6f6f6;
+                    box-shadow: inset 2px 3px 5px #f6f6f6;
+                    width: 95%;
+                }
+            }
+            input[type=email]{
+                margin: 0px;
+                padding: 10px;
+                border-radius: 5px;
+                height: 45px;
+                line-height: 45px;
+                width: 100%;
+                border:1px solid #cdcdcd;
+                font-size: 15px;
+                color: #000;
+                font-family: Montserrat, sans-serif;
+                box-shadow: inset 2px 3px 5px #f2f2f2;
+                transition: all 0.2s ease-in-out;
+                &:focus{
+                    background: #f6f6f6;
+                    box-shadow: inset 2px 3px 5px #f6f6f6;
+                    width: 95%;
+                }
+            }
+            textarea {
+                margin: 0px;
+                padding: 10px;
+                border-radius: 5px;
+                height: 120px;
+                line-height: 22px;
+                width: 100%;
+                border:1px solid #cdcdcd;
+                font-size: 15px;
+                color: #000;
+                font-family: Montserrat, sans-serif;
+                box-shadow: inset 2px 3px 5px #f2f2f2;
+                resize: none;
+                transition: all 0.2s ease-in-out;
+                &:focus{
+                    background: #f6f6f6;
+                    box-shadow: inset 2px 3px 5px #f6f6f6;
+                    width: 95%;
+                }
+            }
+            button{ 
+               
+                font-family: Montserrat, sans-serif;
+                padding: 18px 30px;
+                margin: 0px;
+                text-decoration: none;
+                line-height: 1;
+                display: inline-block;
+                cursor: pointer;
+                text-align: center;
+                vertical-align: top;
+                white-space: normal;
+                font-size: 15px;
+                font-weight: 900;
+                border-radius: 30px;
+                border: 0px;
+                text-transform: uppercase;
+                transition: all 0.2s ease-in-out;
+                background: #cdcdcd;
+                &:hover{
+                    background: #cdcdcd;
+                    border-radius: 0px;
+                }
+            }
+            .error {
+                font-size: 11px;
+                color: red;
+                padding-top: 5px;
+            }
+        }
+    }
+}
+
+.conAddress {
+    margin: 10px 0 0 0;
+    padding: 0px;
+    float: right;
+    width: 30%;
+    h3{
+        margin: 0px;
+        padding: 0 0 20px 0;
+        font-size: 25px;
+    }
+    ul{
+        margin: 0 0 27px 0px;
+        padding: 0px;
+        list-style: none;
+        li{
+            margin: 0px;
+            padding: 0 0 15px 0;
+            font-size: 17px;
+            color: #00b9ff;
+            a{
+                color: #00b9ff;
+                transition: all 0.2s ease-in-out;
+                &:hover{
+                    color: #000;
+                   
+                }
+            }
+        }
+    }
+
+}

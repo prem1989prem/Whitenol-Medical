@@ -1,0 +1,117 @@
+.abPage{
+   margin: 0px;
+   padding: 0px;
+}
+
+.abInfoBg {
+    margin: 0px;
+    padding: 40px 0 100px 0;
+    width: 100%;
+    background: url("../../assets/images/ab-info-bg.jpg") no-repeat center;
+}
+.abInfo {
+    margin: 0px auto;
+    padding: 0px;
+    width: 1024px;
+    overflow: hidden;
+    .abIntroLeft {
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        width: 50%;
+        img{
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+        }
+    }
+    .abIntroRight {
+        margin:0px;
+        padding: 0px;
+        float: right;
+        width: 45%;
+        h2 {
+            margin: 0px;
+            padding: 0 0 30px 0;
+            font-size: 48px;
+            color: #0051a0;
+            font-weight: 600;
+            line-height: 55px;
+        }
+        h3{
+            margin: 0px;
+            padding: 0px 0 28px 0;
+            font-size: 18px;
+            color: #00b9ff;
+            font-weight: 500;
+            line-height: 30px;
+        }
+        p{
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 1.875;
+            font-family: Montserrat, sans-serif;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #616161;
+        }
+    }
+}
+
+
+
+.abHelpBg {
+    margin: 0px 0 90px 0;
+    padding: 100px 0 100px 0;
+    width: 100%;
+    background: url("../../assets/images/childrens-bg.jpg") no-repeat center;
+}
+
+.abHelpInfo {
+    margin: 0px auto;
+    padding: 0px;
+    width: 1024px;
+    overflow: hidden;
+    h2{
+        margin: 0px;
+        padding:0px 0 50px 0;
+        font-size: 45px;
+        text-align: center;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-align: center;
+        li{
+            margin: 0px 1.5%;
+            padding: 0px;
+            float: left;
+            width: 30%;
+            .iconInfo {
+                margin: 0px 0 20px 0;
+                padding: 0px;
+            }
+            h4{
+                margin: 0px;
+                padding: 0px 0 20px 0;
+                font-size: 25px;
+                color: #fff;
+                font-weight: 600;
+                text-transform:capitalize;
+            }
+            p{
+                margin: 0px;
+                padding: 0px;
+                font-size: 15px;
+                color: #aeebff;
+                line-height: 25px;
+                font-weight: 400;
+            }
+        }
+    }
+}

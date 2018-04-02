@@ -1,0 +1,110 @@
+<div class="contactPage">
+  <div class="titleArea">
+
+    <div class="breadCrumbs">
+      <ul>
+        <li>
+          <a routerLink="" routerLinkActive="active-link">Home</a>
+        </li>
+        <li>/</li>
+        <li>
+          Contact Us
+        </li>
+      </ul>
+    </div>
+    <!-- end breadcrumbs -->
+
+    <h2>Contact Us and Data will show in console</h2>
+  </div>
+
+  <div class="conForms">
+    <h3>We review and accept patient’s requests on a 24/7 basis. Please, contact us now:</h3>
+
+    <form #contactFrom="ngForm" (ngSubmit)="addContact(contactFrom.value)">
+      <ul>
+        <li>
+          <label>enter your Full Name</label>
+          <input type="text" #flname [(ngModel)]="contact.full_name" name="full_name" #full_name="ngModel" required />
+          <div *ngIf="full_name.errors && full_name.touched" class="error">
+            <span [hidden]="!full_name.errors.required">
+              Full Name is required.
+            </span>
+          </div>
+        </li>
+        <li>
+          <label>enter your email id</label>
+          <input type="email" #femail [(ngModel)]="contact.email" name="email" #email="ngModel" required email/>
+
+          <div *ngIf="email.errors && (email.dirty || email.touched)" class="error">
+            <span [hidden]="!email.errors.required">
+              Email is required.
+            </span>
+          </div>
+
+        </li>
+        <li>
+          <label>enter your mobile number</label>
+          <input type="number" #fmobile [(ngModel)]="contact.mobile" name="mobile" #mobile="ngModel" required oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');"
+            onKeyDown="if(this.value.length==10 && event.keyCode!=8) return false;" />
+
+          <div *ngIf="mobile.errors && mobile.touched" class="error">
+            <span [hidden]="!mobile.errors.required">
+              Mobile Number is required.
+            </span>
+          </div>
+
+
+        </li>
+        <li>
+          <label>enter your comment</label>
+          <textarea #fcomment [(ngModel)]="contact.comment" name="comment" #comment="ngModel" required></textarea>
+          <div *ngIf="comment.errors && comment.touched" class="error">
+            <span [hidden]="!comment.errors.required">
+              Comment is required.
+            </span>
+          </div>
+        </li>
+        <li class="subBtn">
+          <button type="submit" name="save" value="save" [disabled]="!contactFrom.valid">Send</button>
+
+        </li>
+      </ul>
+    </form>
+  </div>
+  <!-- end left -->
+
+  <div class="conAddress">
+    <h3>Primary Contacts</h3>
+    <ul>
+      <li>Phone:
+        <a href="tel:1.555.329.6532">1.555.329.6532</a>
+      </li>
+      <li>Fax:
+        <a href="tel:1.555.329.6532">1.555.329.6532</a>
+      </li>
+      <li>Email:
+        <a href="mailto:whitenol@demolink.org">whitenol@demolink.org</a>
+      </li>
+    </ul>
+
+    <h3>Directions</h3>
+    <ul>
+      <li>87 Tennesee hwy.,</li>
+      <li>Alexandria, VA, USA, 22303</li>
+
+    </ul>
+
+    <h3>Overground:</h3>
+    <ul>
+      <li>Shoreditch High Street</li>
+    </ul>
+
+    <h3>Buses:</h3>
+    <ul>
+      <li>21 35 43 48 55 67 76 141 149</li>
+      <li>205 214 242 243 271 and 394</li>
+    </ul>
+
+
+  </div>
+</div>

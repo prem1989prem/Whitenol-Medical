@@ -1,0 +1,80 @@
+<div class="appointHead">
+  <div class="titleArea">
+
+    <div class="breadCrumbs">
+      <ul>
+        <li>
+          <a routerLink="" routerLinkActive="active-link">Home</a>
+        </li>
+        <li>/</li>
+        <li>
+          Request an appointment
+        </li>
+      </ul>
+    </div>
+    <!-- end breadcrumbs -->
+
+    <h2>Request An Appointment  and  Data will show in console  </h2>
+
+  </div>
+</div>
+
+<div class="appointBg">
+  <div class="appointArea">
+    <div class="appointForms">
+
+      <div class="appointBanner">
+        <h4> We
+          <span>Care</span> for
+          <span>You</span>
+        </h4>
+        <p>We are always glad to address any questions that you might come up with. Please be sure to get in touch with us should
+          you want to inquire us about anything! Our managers review and accept patient’s requests on a 24/7 basis.</p>
+      </div>
+
+      <h2>Make an Appointment and  Data will show in console </h2>
+      <!-- start form -->
+      <form #contactFrom="ngForm" (ngSubmit)="addContact(contactFrom.value)">
+        <ul>
+          <li>
+            <label>Full Name</label>
+            <input type="text" #flname [(ngModel)]="contact.full_name" name="full_name" #full_name="ngModel" required />
+            <div *ngIf="full_name.errors && full_name.touched" class="error">
+              <span [hidden]="!full_name.errors.required"> Full Name is required. </span>
+            </div>
+          </li>
+          <li>
+            <label>Mobile Number</label>
+            <input type="number" #fmobile [(ngModel)]="contact.mobile" name="mobile" #mobile="ngModel" required oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');"
+              onKeyDown="if(this.value.length==10 && event.keyCode!=8) return false;" />
+            <div *ngIf="mobile.errors && mobile.touched" class="error">
+              <span [hidden]="!mobile.errors.required"> Mobile Number is required. </span>
+            </div>
+          </li>
+          <li>
+            <label>Email Address</label>
+            <input type="email" #femail [(ngModel)]="contact.email" name="email" #email="ngModel" required email/>
+            <div *ngIf="email.errors && (email.dirty || email.touched)" class="error">
+              <span [hidden]="!email.errors.required"> Email is required. </span>
+            </div>
+          </li>
+          <li class="messageInput">
+            <label>Message</label>
+            <textarea #fcomment [(ngModel)]="contact.comment" name="comment" #comment="ngModel" required></textarea>
+            <div *ngIf="comment.errors && comment.touched" class="error">
+              <span [hidden]="!comment.errors.required"> Message is required. </span>
+            </div>
+          </li>
+          <li class="subBtn">
+            <button type="submit" name="save" value="save" [disabled]="!contactFrom.valid">Send</button>
+          </li>
+        </ul>
+      </form>
+
+
+
+      <!-- end form -->
+
+    </div>
+  </div>
+</div>
